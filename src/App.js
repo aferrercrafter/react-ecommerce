@@ -31,7 +31,9 @@ class App extends React.Component {
               id: snapshoot.id,
               ...snapshoot.data()
             } 
-          })
+          });
+
+          console.log(this.state);
         })
       }
 
